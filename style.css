@@ -145,4 +145,25 @@ p,
 ol{
     margin: 20px 0px;
 }
+/* appoinment styles  */
+.phonecall{
+    display: flex;
+    align-items: center;
+}
+.appoinment-container{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(241, 98, 66, 0.865);
+    border-radius:10px;
+    margin-top: -40px;
+    align-items: center;
+}
+.appoinment-desk{
+    width: 55%;
+    margin: auto;
+    text-align: center;
+}
 
