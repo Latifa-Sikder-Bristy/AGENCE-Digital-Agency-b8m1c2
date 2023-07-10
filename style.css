@@ -17,6 +17,7 @@
     align-items: center;
     color: aliceblue;
 }
+
 /* banner styles with bg img */
 .banner-container{
     width: 100%;
@@ -32,4 +33,34 @@
     justify-content: center;
     align-items:center;
     text-align: center;
+/* to center the div .banner-info */
+/* here only son div in banner-container Dad */
+    display: flex;
+    align-items: center;
+}
+.primary-color{
+    color: #F16142;
+}
+.bg-primary-color{
+    background-color: #F16142;
+    color: white;
+}
+.title{
+    font-size: 75px;
+    font-weight: bold;
+    color: white;
+}
+/* apply p tag 50% width and align center  */
+.description{
+    color: white;
+    width: 28%;
+/* used to center align  */
+    margin: auto;
+    padding: 50px 0px;
+}
+.btn{
+/* top-buttom & left-right */
+    padding: 12px 20px;
+    border: none;
+    margin: 10px;
 }
