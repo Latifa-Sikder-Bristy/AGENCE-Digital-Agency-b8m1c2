@@ -62,5 +62,87 @@
 /* top-buttom & left-right */
     padding: 12px 20px;
     border: none;
-    margin: 10px;
+    margin-right: 10px;
 }
+
+/* Services styles */
+.services-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-image: url("./asset/image/footer-bg.png"),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+/* used to apply linear gradient */
+    background-blend-mode: overlay;
+/* set background image center */
+    background-position: center;
+/* fit background image  */
+    background-size: cover;
+    justify-content: center;
+    align-items:center;
+/* to center the div .banner-info */
+/* here only son div in banner-container Dad */
+    color: white;
+}
+.service-icon{
+    width: 70px;
+    margin-bottom: 20px;
+}
+.services-right{
+    display: flex;
+}
+.service-item{
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    /* box-shadow: 2px 2px 8px grey; */
+}
+.service-description{
+    width: 50%;
+}
+.services-menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.author-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+/* Parent of author-profile and .author-title */
+.author-details{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+/* circle image */
+.author-profile img{
+    width: 70%;
+    border-radius: 200px;
+}
+.author-title{
+    width: 100%;
+}
+.services-left{
+    padding-left: 5%;
+}
+hr.hr-style{
+    /* Thick red border */
+    border: 1px solid #F16142;
+    height: 40px;
+}
+ol{
+    padding-left: 15px;
+}
+.service-title,
+.service-description,
+p,
+ol{
+    margin: 20px 0px;
+}
+
