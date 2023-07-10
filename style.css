@@ -167,3 +167,33 @@ ol{
     text-align: center;
 }
 
+/* Blog styles */
+.blog-title{
+    color: black;
+    text-align: center;
+    margin: 50px;
+}
+.card{
+    height: 325px;
+    width: 250px;
+    box-shadow: 4px 8px 4px gray;
+    border-radius: 10px;
+}
+.blog-img{
+    width: 100%;
+}
+.card-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+/* Gems to center  */
+.blog-container{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
